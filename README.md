@@ -5,7 +5,7 @@ Self Destructing ToDo List
 
 What is it? 
 -----------------
-One of my projects at Bloc.io while doing the apprenticeship program was to create a to-do list that would delete tasks after a period of time. Using AngularJs allowed me to create a more dynamic and fluid user experience. When you input a todo into the application you are given a Up & Down arrow to allow the user to push the priority of the task up for higher priority or vise versa. You may also delete the todo using the garbage icon. 
+One of my projects at Bloc.io while doing the apprenticeship program was to create a to-do list that would delete tasks after a period of time. Using AngularJs allowed me to create a more dynamic and fluid user experience. When you input a todo into the application you are given a Up & Down arrow to allow the user to push the priority of the task up for higher priority or vise versa. You may also delete the todo using the garbage icon.
 
 Languages Used:
 -----------------
