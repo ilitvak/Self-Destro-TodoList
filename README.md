@@ -10,3 +10,11 @@ One of my projects at Bloc.io while doing the apprenticeship program was to crea
 Installation Steps
 -----------------
 
+Start by cloning the repository.
+```
+$git clone https://github.com/ilitvak/Self-Destructing-To-Do-List.git <Your directory name>
+```
+
+```
+
+```
