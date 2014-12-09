@@ -9,9 +9,9 @@ One of my projects at Bloc.io while doing the apprenticeship program was to crea
 
 Languages Used:
 -----------------
-HTML5
-CSS3 w/ SASS(styling)
-AngularJs
+- HTML5
+- CSS3 w/ SASS(styling)
+- AngularJs
 
 Installation Steps
 -----------------
