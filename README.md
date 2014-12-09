@@ -1,4 +1,6 @@
-Bloc Base Project
+Self Destructing ToDo List
 =================
 
-A base project for frontend projects
+http://todos-irwin.herokuapp.com/ - Follow this link to go to my Todo List. 
+
+-----------------
