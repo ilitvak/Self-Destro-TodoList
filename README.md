@@ -20,3 +20,13 @@ The project uses Grunt to run tasks; start by installing the Grunt Command Line 
 ```
 $ npm install -g grunt-cli
 ```
+Once that's complete, install the remaining project dependencies by running
+
+```
+$ npm install
+```
+
+Starting the application
+```
+$ npm start
+```
