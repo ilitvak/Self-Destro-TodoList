@@ -38,7 +38,7 @@ You should already have [Node.js](https://www.npmjs.com/) installed before cloni
 
 Start by cloning the repository.
 
-`$git clone https://github.com/ilitvak/bodybyyou.git`
+`$ git clone https://github.com/ilitvak/Self-Destructing-To-Do-List.git`
 
 
 This application uses [Grunt](http://gruntjs.com/) to run tasks.  Install the Grunt Command Line Interface (`grunt-cli`) locally on your machine.
