@@ -4,7 +4,7 @@ Self Destructing ToDo List
 Link to Application
 -------------------
 
-(http://todos-irwin.herokuapp.com/) 
+[Self-Destro-ToDoList](http://ilitvak.github.io/Self-Destro-TodoList/)
 
 What is it? 
 -----------------
@@ -27,8 +27,6 @@ Definitions of Commands
 **[NPM](https://www.npmjs.com/)** - Node Package Manager (Server Manager)
 
 **[Grunt](http://gruntjs.com/)** - looks for files using a defined pattern so that it knows what to compile and copy and where to put it. To edit the files that Grunt watches, look at the array of files in the watch task in [Gruntfile.js](https://github.com/carmenvkrol/bloc-pomodoro/blob/master/gruntfile.js)
-
-
 
 Installation Steps:
 -------------------
