@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app='todoapp'>
+    <head>
+        <meta charset="UTF-8">
+        <title>Self Destructing To Do List</title>
+        <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+        <link rel="stylesheet" href="./app/css/style.css" type="text/css" />
+    </head>
+  
+    <body ng-controller='TodoCtrl'>
+        <div class="container">
+            <h4 class="list-group-item title">Angular To-dos List</h4>
+            <!-- List of Todos -->
+            <div data-ng-repeat="todo in todos" class="list-group-item">
+                <input type="Checkbox" ng-model='todo.done' /> 
+                <input type="text" ng-model="todo.text" class='todo'/>
+                <a href="" ng-click="move($index, 'up')">
+                    <span class="glyphicon glyphicon-arrow-up"></span>
+                </a> 
+                <a href="" ng-click="move($index, 'down')">
+                    <span class="glyphicon glyphicon-arrow-down"></span>
+                </a>
+                <a href="" ng-click="removeTodo($index)">
+                    <span class="glyphicon glyphicon-remove-circle"></span>
+                </a>
+            </div>
+      
+            <div class="list-group-item" ng-show="todoText">
+                <input type="checkbox" disabled="true">
+                    <input type="text" disabled="true" class='todo' placeholder="{{ todoText }}">
+            </div>
+            
+            <!-- Add todo Form -->
+            <form ng-submit='addTodo()' class="list-group-item">
+                <input type="text" ng-model="todoText"/>
+                <input type="submit"/>
+            </form>
+        </div>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js'></script>
+        <script src='https://cdn.firebase.com/v0/firebase.js'></script>
+        <script src='https://cdn.firebase.com/libs/angularfire/0.3.0/angularfire.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.3/moment.min.js'></script>
+        <script src="./app/scripts/app.js"></script>
+    </body> 
+</html>
+
+
